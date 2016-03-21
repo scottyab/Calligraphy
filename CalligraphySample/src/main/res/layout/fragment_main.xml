@@ -1,9 +1,7 @@
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fillViewport="true">
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,37 +17,37 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/default_theme"/>
+            android:text="@string/default_theme" />
 
         <TextView
             fontPath="fonts/Roboto-Bold.ttf"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/defined_fontpath_view"/>
+            android:text="@string/defined_fontpath_view" />
 
         <TextView
             fontPath="fonts/Roboto-None.ttf"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/defined_incorrect"/>
+            android:text="@string/defined_incorrect" />
 
         <TextView
             style="@style/AppTheme.Widget.TextView.Style"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/defined_in_style"/>
+            android:text="@string/defined_in_style" />
 
         <TextView
             style="@style/AppTheme.Widget.TextViewAppearanceStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/defined_in_appears_style"/>
+            android:text="@string/defined_in_appears_style" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/defined_in_appears"
-            android:textAppearance="@style/TextAppearance.FontPathView"/>
+            android:textAppearance="@style/TextAppearance.FontPathView" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -57,20 +55,20 @@
             android:ellipsize="end"
             android:singleLine="true"
             android:text="@string/defined_in_appears"
-            android:textAppearance="@style/TextAppearance.FontPathView"/>
+            android:textAppearance="@style/TextAppearance.FontPathView" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/defined_in_appears_caps"
             android:textAllCaps="true"
-            android:textAppearance="@style/TextAppearance.FontPathView"/>
+            android:textAppearance="@style/TextAppearance.FontPathView" />
 
         <uk.co.chrisjenx.calligraphy.sample.CustomTextView
             fontPath="fonts/Oswald-Stencbab.ttf"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/defined_custom_view"/>
+            android:text="@string/defined_custom_view" />
 
         <uk.co.chrisjenx.calligraphy.sample.CustomViewWithTypefaceSupport
             fontPath="fonts/Oswald-Stencbab.ttf"
@@ -81,13 +79,13 @@
             android:id="@+id/stub"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout="@layout/stub"/>
+            android:layout="@layout/stub" />
 
         <ViewStub
             android:id="@+id/stub_with_font_path"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout="@layout/stub_with_font_path"/>
+            android:layout="@layout/stub_with_font_path" />
 
         <CheckBox
             fontPath="fonts/Oswald-Stencbab.ttf"
@@ -95,7 +93,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:layout_marginTop="16dp"
-            android:text="@string/checkbox_custom"/>
+            android:text="@string/checkbox_custom" />
 
         <EditText
             android:id="@+id/edit_text"
@@ -104,12 +102,12 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:layout_marginTop="16dp"
-            android:hint="@string/edit_text_hint"/>
+            android:hint="@string/edit_text_hint" />
 
         <uk.co.chrisjenx.calligraphy.sample.TextField
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/custom_view_style_text"/>
+            android:text="@string/custom_view_style_text" />
 
         <Button
             android:id="@+id/button_default"
@@ -117,7 +115,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="16dp"
-            android:text="@string/button_default"/>
+            android:text="@string/button_default" />
 
         <Button
             android:id="@+id/button_bold"
@@ -126,7 +124,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="12dp"
-            android:text="@string/button_defined"/>
+            android:text="@string/button_defined" />
 
     </LinearLayout>
-</ScrollView>
+</FrameLayout>
